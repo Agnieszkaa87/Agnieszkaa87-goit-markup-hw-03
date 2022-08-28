@@ -82,24 +82,26 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.header__nav-link--notactive {
     color: var(--black);
 }
 
-.header__nav-link:visited {
+.header__nav-link--notactive:visited {
     color: var(--black);
 }
 
-.header__nav-link:hover,
-.header__nav-link:focus {
+.header__nav-link--notactive:hover,
+.header__nav-link--notactive:focus {
     color: var(--blue);
 }
 
 .header__nav-link--active {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+    color: var(--blue);
+}
+
+.header__nav-link--active:visited {
     color: var(--blue);
 }
 
