@@ -46,7 +46,8 @@ body {
 .header__div {
     display: flex;
     align-items: center;
-    padding: 24px 15px 25px 15px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header__logo {
@@ -174,7 +175,7 @@ body {
 .our-qualities__list {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .our-qualities__element {
@@ -211,7 +212,7 @@ body {
 .our-services__list {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .our-team {
@@ -229,7 +230,7 @@ body {
 .our-team__list {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .our-team__figure {
@@ -269,7 +270,8 @@ body {
 }
 
 .footer__div {
-    padding: 60px 15px 60px 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer__logo {
